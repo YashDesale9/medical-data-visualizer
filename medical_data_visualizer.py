@@ -55,7 +55,7 @@ def draw_heat_map():
 
 
     # 14
-    fig, ax = plt.subplots(figsize=(8,8))
+    fig, ax = plt.subplots(figsize=(12, 12))
 
     # 15
     sns.heatmap(corr, linewidths=1, annot=True, fmt='.1f', square=True, mask=mask, center=0.08, cbar_kws={'shrink': 0.5})
